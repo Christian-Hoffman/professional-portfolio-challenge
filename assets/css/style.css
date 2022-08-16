@@ -1,5 +1,5 @@
 :root {
-    --light: white;
+    --light: #fff5bb;
 }
 
 * {
@@ -16,8 +16,8 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     padding: 15px;
-    background-color: rgb(77, 77, 77);
-    color: var(--light);
+    background-color: #9cbcbc;
+    color: black;
 }
 
 h1 {
@@ -32,4 +32,29 @@ nav ul {
 
 nav ul li {
     margin: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.sub-img {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 
+        repeat(4, fr);
+    width: 25%;
+}
+
+h2 {
+    font-size: 30px;
+
 }
