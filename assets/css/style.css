@@ -53,6 +53,10 @@ section {
     padding: 20px;
 }
 
+.project-title {
+    font-size: 30px;
+}
+
 #pro-pic {
     display: flex;
     align-self: center;
@@ -67,7 +71,7 @@ section {
 #small-projects {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -90,4 +94,17 @@ section {
     display: block;
     flex-direction: row;
     justify-content: center;
+}
+
+#contact-me {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
