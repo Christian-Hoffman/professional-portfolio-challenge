@@ -50,6 +50,12 @@ section {
     padding: 20px;
 }
 
+#pro-pic {
+    display: flex;
+    align-self: center;
+    width: 60%;
+}
+
 #main-img {
     margin: 10px;
     width: 100%;
@@ -58,13 +64,14 @@ section {
 
 #small-projects {
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .sub-img {
-    margin-bottom: 10px;
-    width: 40%;
+    width: 100%;
+    margin: 10px;
 }
 
 #about-me {
