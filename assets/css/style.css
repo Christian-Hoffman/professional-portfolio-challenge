@@ -60,7 +60,7 @@ section {
 #pro-pic {
     display: flex;
     align-self: center;
-    width: 15%;
+    width: 20%;
 }
 
 #main-img {
@@ -99,7 +99,7 @@ section {
 #contact-me {
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 175px;
 }
 
 .contact {
@@ -113,11 +113,32 @@ section {
     padding: 10px;
 }
 
+@media screen and (max-width: 1024px) {
+    #contact-me {
+        margin-top: 50px;
+    }    
+}
+
 @media screen and (max-width: 992px) {
+    .sub-img {
+        width: 30%;
+    }    
+    #pro-pic {
+        width: 30%;
+    }
+    #contact-me {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main-img {
+        width: 80%;
+    }
     .sub-img {
         width: 50%;
     }    
     #pro-pic {
-        width: 50%;
+        width: 40%;
     }
 }
