@@ -23,6 +23,7 @@ header {
 
 h1 {
     font-size: 40px;
+    text-align: center;
 }
 
 nav {
@@ -31,11 +32,16 @@ nav {
 
 nav a {
     text-decoration: none;
+    padding: 5px;
 }
 
 h2 {
     font-size: 30px;
+    margin-bottom: 10px;
+}
 
+p {
+    padding-top: 10px;
 }
 
 section {
@@ -44,6 +50,23 @@ section {
     padding: 20px;
 }
 
-#about-me {
+#main-img {
+    margin: 10px;
+    width: 100%;
+    align-self: center;
+}
 
+#small-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sub-img {
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+#about-me {
+    text-align: center;
 }
