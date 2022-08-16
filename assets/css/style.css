@@ -49,6 +49,7 @@ p {
 section {
     display: flex;
     flex-direction: column;
+    text-align: center;
     padding: 20px;
 }
 
@@ -82,4 +83,11 @@ section {
 #email {
     display: flex;
     align-self: center;
+}
+
+#csssheet {
+    padding: 0;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
 }
