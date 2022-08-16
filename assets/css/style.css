@@ -106,5 +106,18 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.a {
+    padding: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .sub-img {
+        width: 50%;
+    }    
+    #pro-pic {
+        width: 50%;
+    }
 }
