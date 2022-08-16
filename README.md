@@ -6,7 +6,7 @@
 3. [Credits](#credits)
 
 ## Description
-[Portfolio - Christian Hoffman]()
+[Portfolio - Christian Hoffman](https://christian-hoffman.github.io/professional-portfolio-challenge/)
 <br>
 This project was built to be the start of my portfolio as a full stack web developer.
 
