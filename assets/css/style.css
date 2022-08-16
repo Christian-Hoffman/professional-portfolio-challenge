@@ -34,25 +34,6 @@ nav ul li {
     margin: 10px;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-}
-
-#main-img {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 50%;
-}
-
-.sub-img {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 
-        repeat(4, fr);
-    width: 25%;
-}
 
 h2 {
     font-size: 30px;
